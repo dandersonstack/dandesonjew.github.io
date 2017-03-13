@@ -1,5 +1,8 @@
 <head>
 		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.default_page_title }}{% endif %} || {{ site.title }}</title>
+		<meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 		<!-- Stylesheets -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap.no-icons.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css">
