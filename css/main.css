@@ -106,7 +106,7 @@ body {
 
 #landing-banner #expertise {
 	width: 700px;
-	background: url('/assets/imgs/layout/cream-dust.png') repeat;
+	background: #dbd8db;
 	border-radius: 10px;
 	position: absolute;
 	top: 40px;
@@ -207,10 +207,25 @@ footer {
 	margin: 0 0 20px 20px;
 }
 
-.lead-picture figcaption {
+.profile-picture img {
+  border-radius: 90%;
+  height: 250px;
+  margin: 20px 0 20px 0;
+  vertical-align: top;
+}
+
+.profile-picture {
+	background-image: linear-gradient(to right bottom, #34CF2C, #2DCCCF);
+  border: 2px solid #000;
+  border-radius: 12px;
+  margin-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
+.lead-picture figcaption {
+  text-align: center;
+}
 
 .col-1-3,
 .col-2-3 {
