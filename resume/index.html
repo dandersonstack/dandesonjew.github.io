@@ -3,7 +3,66 @@ layout: default
 title: Resume
 ---
 
-<section>
-	<h1>Some resume stuff could go here, I am thinking about having some different columns potentially</h1>
-	<p>Some paragraph stuff will go here, I plan on putting in some stuff</p>
-</section>
+<div class="container">
+  <div class="row">
+    <div class="span12">
+      <div class="page-header">
+        <h1><i class="icon-file-alt"></i> Resumé <small>My skills and experiences</small></h1>
+        <p>The details of my time at Berkeley and my previous jobs and internships from the past several years</p>
+      </div>
+    </div>
+  </div> <!-- /row -->
+  <div class="row">
+    <div class="span12">
+      <figure class="lead-picture">
+        <a href="/assets/imgs/files/daniel_anderson_resume.pdf" download="Daniel Anderson Resumé">
+          <img src="/assets/imgs/layout/resume_screenshot.png" class="img-rounded" alt="Resume">
+          <figcaption>
+            <button class="btn btn-success" type="button">Click to Download PDF</button>
+          </figcaption>
+        </a>
+      </figure>
+
+      <h4 class="upper">Education</h4>
+      <p>University of California, Berkeley; B.A., May 2016)</p>
+      <h5>Major: Cognitve Science</h5>
+      <p>Studied how people think, learn and remember, and how language, documentation and culture impact team dynamics and results. Modeled perceptions and behaviors.</p>
+      <h5>Minor: Computer Science</h5>
+      <ul>
+        <li>Created Pokemon App for Moto360 smart watch using Java & Android Studio. Built user friendly demo, using Gaussian principles, where users could catch Pokemon depending on distance & geography; 2 week development cycle, with user testing and interviews.
+        <li>Created Volunteer Registration System for Engineers Without Borders. Used Ruby on Rails, Heroku, Bootstrap, Javascript, with automatic deployment.  Achieved  > 90% test coverage using Rspec & Cucumber - Travis & Code Climate
+        <li>Built text editor with the JavaFX visualization library with multiple features.
+        <li>Built dynamic Pacman reflex agent in Python that achieved success 9 out of 10 times.
+      </ul>
+
+      <h4 class="upper">Professional Experience</h4>
+      <h5>Associate Ruby Developer at OpenED (San Jose)</h5>
+      <p>Opened is an education website built to delive various types of resources to k-12 students for in classroom resource managment. The Site is a Rails App with Ember JS on the Front-end and PostgresSQL powering the backend</p>
+      <h5>Sept 2016 - Febuary, 2017</h5>
+      <ul>
+        <li>Mounted rails component (4.2.7) with custom Sidekiq workers.  Used Ruby APIs to update user permissions. Wrote & optimized queries for PostGreSQL DB to generate revenue data.
+        <li>Established back end infrastructure to upload different document types for MLA.  Redesigned existing resource repo flow to handle complex Post REST calls; leveraged AWS Paperclip gem (s3 storage system) to manage raw binary data.  Achieved 18x improvement in download time using a Cloud Front distribution system.
+        <li>Upgraded Factory Girl to Webmock to improve coverage for HTTPNET calls and substantially improved test coverage, mostly by identifying and upgrading deprecated gems 
+        <li>Built account hierarchy in Salesforce CRM.  Used Ruby Scripts, Salesforce & DataLoader to create nation-wide hierarchy of district and school data from numerous .csv files.  Corrected over 5K anomalies and pruned over 20K duplicates/extraneous data.
+      </ul>
+      <h5>Software Developer Intern at ERNGlobal (Palo Alto)</h5>
+      <p>ERNGlobal was a startup aimed at supporting a loyalty program for smaller retail brands throught Europe and Asia. We were building an mobile app for Android and IOS, with PostGres support and a their-tier VM on a Redis Enviornment </p>
+      <h5>June 2013 - Jan 2014</h5>
+      <ul>
+        <li>Worked on a development team to automate installation of three-tier application on VM. Scripted in Linux to manage build process (Redis + Zookeeper) & benchmark performance.
+      </ul>
+      <h5> Other Jobs</h5>
+      <ul>
+      	<li> Intern at Auction.com – built VBA macros in Excel; Belmont, CA January 2015
+      	<li>Construction assistant – remodeling historic houses; Santa Clara, CA, Summer 2014
+      	<li>Camp Staffer at Jewish Community Center; Palo Alto, CA, Summer 2012
+      </ul>
+      <h4 class="upper">Awards</h4>
+      <h5>Eagle Scout Award</h5>
+      <ul>
+        <li>Raised over 2,000$ and organized over 15 scouts to build six raised vegtable beds at the local synogue Beth AM
+        <li>Completed over 500hours of community service hours through my time in the scouts, and personally ran over a dozen service projects including trail clean-ups, the Los Altos Art and Wine Festival, and collecting over 3,000lbs for scouting for food.
+       </ul>
+    </div>
+  </div> <!-- /row -->
+</div> <!-- /container -->
